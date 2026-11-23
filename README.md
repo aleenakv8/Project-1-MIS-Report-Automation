@@ -30,8 +30,8 @@ python generate_mis_report.py data/sales_data_raw.xlsx output/MIS_Report.xlsx
 ## Sample data
 `data/sales_data_raw.xlsx` is synthetic data created for this project (435 rows, Aug–Oct 2026) with deliberate errors, so the cleaning steps can be demonstrated. Replace it with your own file that has the same columns: Order ID, Order Date, Region, Product, Salesperson, Amount.
 
-## Excel version (Days 2–4 of the plan)
-The same report was also built manually in Excel using Power Query (cleaning), Pivot Tables and XLOOKUP. Add the workbook to this repo as `excel/MIS_Report_Manual.xlsx` and add screenshots below.
+## Excel version 
+The same report was also built manually in Excel using Power Query (cleaning), Pivot Tables and XLOOKUP. Add the workbook to this repo as `excel/MIS_Report_Manual.xlsx` 
 
 ## Tools
 Python, Pandas, openpyxl, Excel (Power Query, Pivot Tables, XLOOKUP, Conditional Formatting)
